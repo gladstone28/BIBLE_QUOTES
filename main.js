@@ -1,4 +1,4 @@
-let fortunes = ['John3:16:For God so loved the world that He gave His only begotten Son, that whosoever believeth in Him should not perish, but have everlasting life',
+let fortunes = ['John3:16:For God so loved the world that He gave His only begotten Son, that whosoever believeth in Him shall not perish, but have everlasting life',
         '1 John 4-8:He that loveth not, knoweth not God, for God is love.',
         '1 Peter 4-8:And above all things, have fervent charity among yourselves, for charity shall cover the multitude of sins.',
         'Coll 3:14: And above all these things put on charity, which is the bond of perfectness.',
