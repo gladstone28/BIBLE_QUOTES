@@ -1,28 +1,52 @@
-body{
-    background-color: #141c3a;
+body {
+    background-color: rgb(56, 56, 49);
     font-family: 'Nunito', sans-serif;
     width: 70%;
     margin: auto;
 }
 
-h1{
+header {
+    background-color: #6969ee;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px;
+}
+
+h1 {
     color: white;
     text-align: center;
     margin-top: 64px;
 }
 
-#fortune{
+#fortune {
     color: #EFBB24;
     font-size: 24px;
     text-align: center;
 }
 
-#buttonContainer{
+#buttonContainer {
     width: fit-content;
     margin: auto;
 }
 
-#fortuneButton{
+#fortuneButton {
     padding: 10px;
     font-size: 16px;
     background: white;
