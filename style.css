@@ -55,7 +55,9 @@ h1 {
 }
 
 .placement {
-    width: 350px height: auto
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
 }
 
 #fortune {
@@ -117,3 +119,43 @@ button:hover {
     background-color: #333;
     color: #fff;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    /* Adjustments for tablet screens */
+    .placement {
+        max-width: 80%;
+    }
+
+    #fortune {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 1.2rem;
+    }
+
+    #moodButtons button {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjustments for mobile screens */
+    h1 {
+        font-size: 2rem;
+    }
+
+    .placement {
+        max-width: 100%;
+    }
+
+    #fortune {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 0.8rem 
