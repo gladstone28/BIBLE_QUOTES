@@ -1,57 +1,85 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(56, 56, 49);
-    font-family: 'Nunito', sans-serif;
-    width: 70%;
-    margin: auto;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
 }
 
 header {
-    background-color: #6969ee;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #282c34;
+  color: #ffffff;
+  padding: 1rem;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 50%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 12px;
+nav li {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
 }
 
 h1 {
-    color: white;
-    text-align: center;
-    margin-top: 64px;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 #fortune {
-    color: #EFBB24;
-    font-size: 24px;
-    text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  margin-bottom: 2rem;
 }
 
 #buttonContainer {
-    width: fit-content;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#fortuneButton {
-    padding: 10px;
-    font-size: 16px;
-    background: white;
-    border: 5px solid #D0104C;
-    border-radius: 5px;
-    color: #141c3a;
-    cursor: pointer;
+button {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#moodButtons {
+ 
 }
