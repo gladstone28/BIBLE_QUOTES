@@ -6,6 +6,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Define the initial style for the image */
+        .image {
+            width: 500px;
+            height: 300px;
+            border: 1px solid black;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        /* Define the style for the image when it's clicked */
+        .image.clicked {
+            border: 1px solid red;
+            box-shadow: 0 0 10px red;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,7 +40,7 @@
 
     <main>
         <h1>Welcome to our website</h1>
-        <img src="image2.jpg" alt="A beautiful image">
+        <img src="image2.jpg" alt="A beautiful image" class="image" onclick="this.classList.toggle('clicked')">
         <p>We are members of the Multimedia Mission at the King's Gate United church, a community of believers dedicated to spreading the word of God and supporting one another on our spiritual journeys.</p>
         <p>Take a look around to learn more about us and our mission.</p>
     </main>
@@ -32,6 +48,10 @@
     <footer>
         <p>&copy; 2023 Our Church. All rights reserved.</p>
     </footer>
+
+    <script src="main.js">
+       
+    </script>
 </body>
 
 </html>
