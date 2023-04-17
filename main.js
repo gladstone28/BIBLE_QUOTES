@@ -12,18 +12,18 @@ const verses = [
 ];
 
 const quotes = [
-  "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life. - John 3:16",
-  "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God. - Ephesians 2:8",
-  "Therefore, since we have been justified through faith, we have peace with God through our Lord Jesus Christ. - Romans 5:1",
-  "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight. - Proverbs 3:5-6",
-  "I can do all this through him who gives me strength. - Philippians 4:13",
-  "And we know that in all things God works for the good of those who love him, who have been called according to his purpose. - Romans 8:28"
+    "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life. - John 3:16",
+    "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God. - Ephesians 2:8",
+    "Therefore, since we have been justified through faith, we have peace with God through our Lord Jesus Christ. - Romans 5:1",
+    "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight. - Proverbs 3:5-6",
+    "I can do all this through him who gives me strength. - Philippians 4:13",
+    "And we know that in all things God works for the good of those who love him, who have been called according to his purpose. - Romans 8:28"
 ];
 
 function getFortune() {
-  const randomIndex = Math.floor(Math.random() * quotes.length);
-  const quote = quotes[randomIndex];
-  document.getElementById("fortune").innerHTML = quote;
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    const quote = quotes[randomIndex];
+    document.getElementById("fortune").innerHTML = quote;
 }
 
 document.getElementById("fortuneButton").addEventListener("click", getFortune);

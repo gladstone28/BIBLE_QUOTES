@@ -54,6 +54,10 @@ h1 {
     text-align: center;
 }
 
+.placement {
+    width: 350px height: auto
+}
+
 #fortune {
     font-size: 2rem;
     font-style: italic;
