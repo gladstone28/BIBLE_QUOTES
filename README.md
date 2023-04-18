@@ -25,7 +25,7 @@ Future Objective
 What we would like to achieve
 -----------------------------
 
-Visitors to our web site will be able to use the App online to generate a motivational Bible Verse then depending on their mood the can click
-to generate a Verse to be shared with their contacts on Twitter, WhatsApp or Facebook. With the collboration of more experienced web developers
+Visitors to our web site will be able to use the App online to generate a motivational Bible Verse then depending on their mood they can click on the
+relevant mood button to generate a Verse as an output.html which they can click to be shared with their contacts on Twitter, WhatsApp or Facebook. With the collboration of more experienced web developers
 we would like to creat a mobile app from the online app for the play store as well as the app store where it can be dowloaded onto devices worldwide.
 
